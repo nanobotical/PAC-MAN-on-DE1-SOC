@@ -101,19 +101,19 @@ Conventions
 ⸻
 
 What I Fixed
-	- Prevented illegal movement into unwalkable nodes
-	- Fixed ROM timing issues by adding explicit wait states
-	- Corrected VGA coin alignment using tile-center math
-	- Eliminated double-draw coin artifacts via pipelining
-	- Ensured coin counter increments exactly once per coin
+- Prevented illegal movement into unwalkable nodes
+- Fixed ROM timing issues by adding explicit wait states
+- Corrected VGA coin alignment using tile-center math
+- Eliminated double-draw coin artifacts via pipelining
+- Ensured coin counter increments exactly once per coin
 
 ⸻
 
 To-dos
-	- Add win condition when all coins are collected
-	- Add game-over screen on enemy collision
-	- Add difficulty scaling over time
-	- Add sound effects for coin collection
+- Add win condition when all coins are collected
+- Add game-over screen on enemy collision
+- Add difficulty scaling over time
+- Add sound effects for coin collection
 
 ⸻
 
