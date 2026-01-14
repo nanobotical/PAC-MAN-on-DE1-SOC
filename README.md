@@ -82,21 +82,21 @@ Note: ModelSim Intel requires all local variables to be declared before procedur
 ⸻
 
 Build / Program (Quartus)
-	1.	Open Quartus Prime.
-	2.	Set the top-level entity to DE1_SoC.
-	3.	Add all source files and memory initialization files.
-	4.	Compile and program the DE1-SoC.
+1.	Open Quartus Prime.
+2.	Set the top-level entity to DE1_SoC.
+3.	Add all source files and memory initialization files.
+4.	Compile and program the DE1-SoC.
 
 
 ⸻
 
 Conventions
-	- Node grid: 30 columns × 36 rows
-	- Addressing: addr = row * 30 + column
-	- Maze origin offset: MAP_X0 = 0, MAP_Y0 = 30
-	- Coin RAM output is registered (1-cycle latency)
-	- All FSM outputs are registered
-	- Score increments only on a valid coin removal event
+- Node grid: 30 columns × 36 rows
+- Addressing: addr = row * 30 + column
+- Maze origin offset: MAP_X0 = 0, MAP_Y0 = 30
+- Coin RAM output is registered (1-cycle latency)
+- All FSM outputs are registered
+- Score increments only on a valid coin removal event
 
 ⸻
 
