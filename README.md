@@ -91,32 +91,32 @@ Build / Program (Quartus)
 ⸻
 
 Conventions
-	•	Node grid: 30 columns × 36 rows
-	•	Addressing: addr = row * 30 + column
-	•	Maze origin offset: MAP_X0 = 0, MAP_Y0 = 30
-	•	Coin RAM output is registered (1-cycle latency)
-	•	All FSM outputs are registered
-	•	Score increments only on a valid coin removal event
+	- Node grid: 30 columns × 36 rows
+	- Addressing: addr = row * 30 + column
+	- Maze origin offset: MAP_X0 = 0, MAP_Y0 = 30
+	- Coin RAM output is registered (1-cycle latency)
+	- All FSM outputs are registered
+	- Score increments only on a valid coin removal event
 
 ⸻
 
 What I Fixed
-	•	Prevented illegal movement into unwalkable nodes
-	•	Fixed ROM timing issues by adding explicit wait states
-	•	Corrected VGA coin alignment using tile-center math
-	•	Eliminated double-draw coin artifacts via pipelining
-	•	Ensured coin counter increments exactly once per coin
+	- Prevented illegal movement into unwalkable nodes
+	- Fixed ROM timing issues by adding explicit wait states
+	- Corrected VGA coin alignment using tile-center math
+	- Eliminated double-draw coin artifacts via pipelining
+	- Ensured coin counter increments exactly once per coin
 
 ⸻
 
 To-dos
-	•	Add win condition when all coins are collected
-	•	Add game-over screen on enemy collision
-	•	Add difficulty scaling over time
-	•	Add sound effects for coin collection
+	- Add win condition when all coins are collected
+	- Add game-over screen on enemy collision
+	- Add difficulty scaling over time
+	- Add sound effects for coin collection
 
 ⸻
 
 License
 
-MIT
+- MIT
